@@ -1,3 +1,45 @@
+/* Structure */
 body {
     background: skyblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navigation */
+a {
+    text-decoration: none;
+    background: lightcoral;
+    color: black;
+    padding: 4px;
+    border-radius: 3px;
+}
+a:hover {
+    background: darkorange;
+}
+
+/* Images */
+img {
+    border: 5px solid darkcyan;
+    border-radius: 5px;
+}
+/* Tables */
+table {
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid forestgreen;
+    padding: 4px;
+}
+th {
+    background: orange;
+}
+td {
+    background: orangered;
+}
+
+/* Typography */
+h1 {
+    color: magenta;
+}
+h2 {
+    color: purple;
 }
