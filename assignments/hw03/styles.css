@@ -1,9 +1,10 @@
 /* Structure */
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background: #B0BF7A
 }
 #content {
-    background: lime;
+    background: #C7D9AD;
     width: 75%;
     margin: auto;
     padding: 5px;
@@ -12,19 +13,19 @@ body {
 /* Navigation */
 #main-nav a {
     text-decoration: none;
-    background: lightcoral;
+    background: #B0BF7A;
     color: black;
-    padding: 4px;
+    padding: 3px;
     border-radius: 3px;
 }
 #main-nav a:hover {
-    background: darkorange;
+    background: #557329;
 }
 
 /* Images */
 img {
     padding: 10px;
-    border: 5px solid darkcyan;
+    border: 5px solid #320502;
     border-radius: 5px;
 }
 /* Tables */
@@ -36,16 +37,23 @@ th, td {
     padding: 4px;
 }
 th {
-    background: orange;
+    background: #D9A3AC;
 }
 td {
-    background: orangered;
+    background: #F2CED8;
 }
 
 /* Typography */
 h1 {
-    color: magenta;
+    color: #557329;
 }
 h2 {
-    color: purple;
+    color: #400601;
+}
+#doggie {
+    color: #BF6B63;
+    font-style: oblique;
+}
+.big {
+    font-size: 25px;
 }
