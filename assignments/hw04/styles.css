@@ -9,13 +9,22 @@ body {
     margin: auto;
     padding: 5px;
     border-radius: 3px;
+    
+}
+#projects {
+    background: #C7D9AD;
+    width: 75%;
+    margin: auto;
+    padding: 5px;
+    border-radius: 3px;
+
 }
 #main-header h1, h3 {
     text-align: center;
 }
 .column{
     background: #557329;
-    margin: 15px;
+    margin: 10px;
     padding: 2px;
     border-radius:3px;
 }
