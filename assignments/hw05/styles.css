@@ -6,7 +6,21 @@ body {
 #main-header{
     background:black; 
 }
-   
+#search-bar {
+    height: 30px;
+    width: 189px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    padding: 5px;
+    position: relative;
+    left: 75%;
+}
+#red-header {
+    background: #73000A;
+    color: white;
+
+}
 
 /* Images */
 #top-logo {
@@ -19,9 +33,10 @@ body {
     position: relative;
     color: white;
     top: 0%;
-    left:45%;
     font-size: 9px;
     display: inline; /*from w3 schools */
+    position: absolute;
+    left: 55%;
 }
 #top-nav  li {
     display: inline; /*from w3 schools */
@@ -62,9 +77,6 @@ body {
 }
 
 /* Typography */
-header h1 {
-    text-align: center;
-}
 #top-nav-h3 {
     display: inline;
 }
